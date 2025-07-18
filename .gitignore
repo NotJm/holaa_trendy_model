@@ -1,6 +1,24 @@
+venv/
+env/
+ENV/
 myenv/
+Lib/
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Config local
 .env
 .DS_Store
+
+# Mac
+.DS_Store
+
+# Linux
+*.swp
+
+# VSCode
+.vscode/
